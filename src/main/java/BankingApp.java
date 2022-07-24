@@ -12,7 +12,7 @@ public class BankingApp {
             inputNumber = scanner.nextInt();
             switch (inputNumber) {
                 case 1:
-                  account.showAccount();
+                    account.showAccount();
                     break;
                 case 2:
                     account.deposit();
@@ -22,10 +22,9 @@ public class BankingApp {
                     break;
 
 
-
             }
 
-        } while(inputNumber != 4);
+        } while (inputNumber != 4);
 
 
     }
