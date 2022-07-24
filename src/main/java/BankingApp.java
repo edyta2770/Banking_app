@@ -5,6 +5,7 @@ public class BankingApp {
         Scanner scanner = new Scanner(System.in);
         AccountDetails account = new AccountDetails();
         System.out.println("Witaj w naszej aplikacji bankowej");
+        account.createAccount();
         int inputNumber;
         do {
             System.out.println("Co chcesz zrobic?\n 1. Pokaz informacje o koncie \n 2.Wplata gotowki \n 3. Wyplata \n 4. Wyjscie ");
