@@ -33,6 +33,12 @@ public void showAccount () {
         balance = money + balance;
 
 
+        }
+        public void withdrawal() {
+        System.out.println("Enter the withdrawal amount");
+        long withdrawalAmount;
+        withdrawalAmount = scanner.nextLong();
+        balance = balance - withdrawalAmount;
 
 
         }
