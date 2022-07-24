@@ -38,7 +38,17 @@ public void showAccount () {
         System.out.println("Enter the withdrawal amount");
         long withdrawalAmount;
         withdrawalAmount = scanner.nextLong();
-        balance = balance - withdrawalAmount;
+
+
+        if(balance<withdrawalAmount) {
+                System.out.println("Lack of sufficient resources");
+        } else  {
+                balance = balance - withdrawalAmount;
+
+
+        }
+
+
 
 
         }
