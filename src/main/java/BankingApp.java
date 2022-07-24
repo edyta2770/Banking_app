@@ -13,7 +13,9 @@ public class BankingApp {
             switch (inputNumber) {
                 case 1:
                   account.showAccount();
-
+                    break;
+                case 2:
+                    account.deposit();
                     break;
 
             }
@@ -21,7 +23,5 @@ public class BankingApp {
         } while(inputNumber != 4);
 
     }
-
-
 
 }

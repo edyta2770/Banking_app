@@ -15,8 +15,6 @@ public void showAccount () {
         System.out.println("Your Account balance is" + balance);
 }
 
-
-
         public void createAccount() {
                 System.out.println("Provide account name");
                 name = scanner.next();
@@ -26,6 +24,17 @@ public void showAccount () {
                 login = scanner.next();
                 System.out.print("Provide account balance");
                 balance = scanner.nextLong();
+        }
+
+        public void deposit(){
+        System.out.println("how much money is to be paid?");
+        long money;
+        money = scanner.nextLong();
+        balance = money + balance;
+
+
+
+
         }
 }
 
